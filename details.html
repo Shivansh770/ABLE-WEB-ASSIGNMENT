@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="details.css">
+    <title>Job details</title>
+</head>
+<body>
+    <div class="container">
+        <form >
+            <div class="form-details">
+                <label for="jobrole">Job Role*</label>
+                <input list="jobrole" required>
+                <datalist id="jobrole">
+                    <option value="Business Development Executive">
+                    <option value="Customer Support Voice">
+                    <option value="Customer SupportNon-voice">
+                    <option value="Inside Sales">
+                    <option value="Field Sales">
+                    <option value="Content Writing">
+                    <option value="Digital Marketing">
+                    <option value="Community Management">
+                </datalist>
+                
+                <label for="jobdescription">Job Description*</label>
+                <textarea name="" id="jobdescription" cols="30" rows="10" required></textarea>
+                
+                <label for="place">Place of work*</label>
+                <input type="text" id="place" required />
+                
+                <label for="number">Phone no. for coordination*</label>
+                <input type="number" id="number" required>
+            </div>
+            <button type="submit"><a href="./opening.html">Submit</a></button>
+        </form>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            window.location.href = "./opening.html";
+        }
+    </script>
+</body>
+</html
+>
